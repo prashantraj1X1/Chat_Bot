@@ -13,7 +13,7 @@ class server {
 
         }
         server = new Serversocket();// socket with port no and storing the value in socket
-
+//  int b
     }
 
     public static void main(String[] args) {
