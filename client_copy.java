@@ -4,11 +4,12 @@ import java.io.PrintWriter;
 import java.net.*;
 import java.io.*;
 
-public class client {
+public class client_copy
+{
    Socket socket;
    BufferedReader br;
    PrintWriter out;
-   public client() {
+   public client_copy() {
       try {
          System.out.println("Sending req. to server");
          socket = new Socket("127.0.0.1", 7777);

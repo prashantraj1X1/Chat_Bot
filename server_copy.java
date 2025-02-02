@@ -2,14 +2,14 @@ import java.net.*;
 import java.io.*;
 
 
-class server {
+class server_copy {
     // constructor
     Serversocket server;
     Socket socket;
     BufferedReader br;
     PrintWriter out;
 
-    public server() {
+    public server_copy() {
         try {
             ServerSocket server = new ServerSocket(7777);//
             System.out.println("server is ready to accept the connection..");
